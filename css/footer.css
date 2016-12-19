@@ -1,0 +1,24 @@
+.footer {
+	height: 170px;
+	width: 100%;
+	position: relative;
+	margin-top: -170px;
+	background-color: #353f47;
+}
+.wrapp__footer {
+	width: 80%;
+	margin: 0 10%;
+}
+.wrapp__footer li a {
+	color: #515f67;
+}
+.wrapp__footer .nav__menu,
+.copyright {
+	display: inline-block;
+	vertical-align: top;
+	width: 49.8%;
+	line-height: 170px;
+}
+.copyright {
+	padding-left: 44.9%;
+}
