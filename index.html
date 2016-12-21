@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<div class="wrapper">
+	<div class="wrapper" id="home">
 		<header class="header">
 			<div class="top__wrapp">
 				<div class="header__top">
@@ -17,11 +17,11 @@
 					</div>
 					<div class="top__nav">
 						<ul class="nav__menu">
-							<li><a href="#">home</a></li>
-							<li><a href="#">services</a></li>
-							<li><a href="#">features</a></li>
-							<li><a href="#">portfolio</a></li>
-							<li><a href="#">contact</a></li>
+							<li><a href="#home">home</a></li>
+							<li><a href="#services">services</a></li>
+							<li><a href="#features">features</a></li>
+							<li><a href="#portfolio">portfolio</a></li>
+							<li><a href="#contact">contact</a></li>
 						</ul>
 					</div>
 				</div>
@@ -33,7 +33,7 @@
 
 		</header>
 
-	<section class="services">
+	<section class="services" id="services">
 		<div class="wrapp__services">
 			<span class='services__text'>services</span>
 			<div class="coffe">
@@ -58,16 +58,16 @@
 			</div>
 		</div>
 	</section>
-	<section class="portfolio">
+	<section class="portfolio" id="portfolio">
 		<div class="wrapp__portfolio">
 			<span class='portfolio__text'>portfolio</span>
 			<div class="top__nav">
 				<ul class="nav__menu">
-					<li><a href="#">home</a></li>
-					<li><a href="#">services</a></li>
-					<li><a href="#">features</a></li>
-					<li><a href="#">portfolio</a></li>
-					<li><a href="#">contact</a></li>
+					<li><a href="#home">home</a></li>
+					<li><a href="#services">services</a></li>
+					<li><a href="#features">features</a></li>
+					<li><a href="#portfolio">portfolio</a></li>
+					<li><a href="#contact">contact</a></li>
 				</ul>
 			</div>
 			<div class="portfolio__top-row">
@@ -117,7 +117,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="argoflex">
+	<section class="argoflex" id="features">
 		<div class="wrapp__argoflex">
 			<span class='argoflex__title'>who is john doe?</span>
 			<div class="argoflex__left-top">
@@ -149,7 +149,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="contact">
+	<section class="contact" id="contact">
 		<div class="wrapp__contact">
 			<div class='contact__title'>contact</div>
 			<label for="text" class="text"> full name
@@ -182,15 +182,17 @@
 	<footer class="footer">
 		<div class="wrapp__footer">
 			<ul class="nav__menu">
-				<li><a href="#">home</a></li>
-				<li><a href="#">services</a></li>
-				<li><a href="#">portfolio</a></li>
-				<li><a href="#">contact</a></li>
+				<li><a href="#home">home</a></li>
+				<li><a href="#services">services</a></li>
+				<li><a href="#portfolio">portfolio</a></li>
+				<li><a href="#contact">contact</a></li>
 			</ul>
 			<div class="copyright">
 				2016 <i class="fa fa-copyright" aria-hidden="true"></i>
 			</div>
 		</div>
 	</footer>
+	<script src="../jquery.min.js"></script>
+	<script src="../script.js"></script>
 </body>
 </html>
