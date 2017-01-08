@@ -1,4 +1,7 @@
 $(document).ready(function(){
+	setTimeout(function(){
+	   $(".wrapp__svg").css("display","none");
+	});
 	$('a[href^="#"]').click(function (){
 		elementClick = $(this).attr("href");
 		destination  = $(elementClick).offset().top;
