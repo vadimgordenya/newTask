@@ -1,7 +1,8 @@
+$(window).on('load', function() {
+    var $preloader = $(".wrapp__svg");
+    $preloader.delay(2000).fadeOut('slow');
+});
 $(document).ready(function(){
-	setTimeout(function(){
-	   $(".wrapp__svg").css("display","none");
-	}, 3000);
 	$('a[href^="#"]').click(function (){
 		elementClick = $(this).attr("href");
 		destination  = $(elementClick).offset().top;
